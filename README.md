@@ -1,4 +1,4 @@
-# Markdown Guide — From Basics to Advanced
+# Markdown Guide — Basics to Advanced
 <p> A clean, complete guide for anyone writing better README files. </p>
 
 ## What is Markdown?
@@ -133,6 +133,20 @@ Syntax highlighting available for Python, JavaScript, Java, Bash, JSON, YAML etc
 ```
 ````
 
+# Mermaid Diagrams
+GitHub supports Mermaid for diagrams. Very useful for architecture diagrams, flowcharts, and explaining project structure: essential for technical documentation.
+
+
+```mermaid
+flowchart TD
+  A[Start] --> B{Is it working?}
+  B -- Yes --> C[Ship it]
+  B -- No --> D[Fix it]
+  D --> B
+```
+
+
+
 <!-- Tables -->
 # Tables
 Tables allow you to show structured information such as configurations, comparisons, or fields. It turns messy text into a clean, organized layout, especially useful for feature lists, API data, and documentation.
@@ -167,8 +181,17 @@ Used for notes, warnings, tips, or important messages.
 ---
 ```
 
+# Mermaid Diagrams
 
 
+
+
+
+
+
+<!-- HTML -->
+# HTML in Markdown
+<span style="color:yellow">Yellow text</span>
 
 
 
