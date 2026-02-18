@@ -139,12 +139,15 @@ GitHub supports Mermaid for diagrams. Very useful for architecture diagrams, flo
 
 ```mermaid
 flowchart TD
-  A[Start] --> B{Is it working?}
-  B -- Yes --> C[Ship it]
-  B -- No --> D[Fix it]
-  D --> B
+    A --> B
 ```
-
+Syntax:
+````
+```mermaid
+flowchart TD
+    A --> B
+```
+````
 
 
 <!-- Tables -->
@@ -161,6 +164,13 @@ Tables allow you to show structured information such as configurations, comparis
 |--------|-----------|--------|
 | John   | Developer | Senior |
 | Bob    | Tester    | Junior |
+```
+or
+```md
+|Name|Role|Level|
+|-|-|-|
+|John|Developer|Senior|
+|Bob|Tester|Junior|
 ```
 
 <!-- Blockquotes -->
@@ -181,10 +191,15 @@ Used for notes, warnings, tips, or important messages.
 ---
 ```
 
-# Mermaid Diagrams
+# Links
+Links lets us connect users to installation guides, docs, external pages, or related repositories.
 
+[GitHub](https://github.com)
 
-
+Syntax:
+```
+[GitHub](https://github.com)
+```
 
 
 
@@ -193,5 +208,6 @@ Used for notes, warnings, tips, or important messages.
 # HTML in Markdown
 <span style="color:yellow">Yellow text</span>
 
+# Collapsible Sections
 
 
