@@ -8,6 +8,7 @@
 
 <!-- Heading -->
 # Headings
+Headings help structure your README into clear, readable sections. Simply it makes the document easy to scan.
 
 > # This is a Heading
 > ```
@@ -24,6 +25,7 @@
 
 <!-- Text Formatting -->
 # Text Formatting
+Formatting helps you highlight important info, emphasize details, or organize explanations. It makes your README clearer, more readable, and more professional.
 
 **Bold Text**
 ```
@@ -60,10 +62,15 @@ Here's is a <sup>superscript<sup>
 <sup>superscript<sup>
 ```
 
+`inline code`
+```
+`inline code`
+```
 
 <!-- Lists -->
 
 # Lists
+Lists help you present information cleanly and quickly, making complex steps or features easy to digest.
 
 > ## Unordered List
 > - Item 1
@@ -100,19 +107,38 @@ Here's is a <sup>superscript<sup>
 > - [ ] Pending task
 > ```
 
+<!-- Tables -->
+# Tables
+Tables allow you to show structured information such as configurations, comparisons, or fields. It turns messy text into a clean, organized layout, especially useful for feature lists, API data, and documentation.
 
+| Name   | Role      | Level  |
+|--------|-----------|--------|
+| John   | Developer | Senior |
+| Bob    | Tester    | Junior |
 
+```
+| Name   | Role      | Level  |
+|--------|-----------|--------|
+| John   | Developer | Senior |
+| Bob    | Tester    | Junior |
+```
 
+<!-- Blockquotes -->
+# Blockquotes
 
+> This is a quoted line.
+>> Nested quote
 
+```
+> This is a quoted line.
+>> Nested quote
+```
 
-
-
-
-
-
-
-
+# Horizontal Line
+---
+```
+---
+```
 
 
 
