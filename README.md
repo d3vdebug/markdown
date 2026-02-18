@@ -89,7 +89,7 @@ Lists help you present information cleanly and quickly, making complex steps or 
 > 2. Item 2
 > ```
 
-> ## Sub Item
+> ## Nested Lists
 > - Item 1
 >   - Sub Item 1
 >     - Sub item a
@@ -98,6 +98,7 @@ Lists help you present information cleanly and quickly, making complex steps or 
 >   - Sub Item 1
 >     - Sub item a
 > ```
+
 
 > ## Task List
 > - [x] Completed task
@@ -199,6 +200,47 @@ Links lets us connect users to installation guides, docs, external pages, or rel
 Syntax:
 ```
 [GitHub](https://github.com)
+```
+
+
+<!-- HTML -->
+# Alerts
+Alerts are use to emphasize critical information. On GitHub, they are displayed with distinctive colors and icons to indicate the significance of the content.
+
+### NOTE
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+```
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+```
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+```
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+```
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+```
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+```
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+```
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+```
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 ```
 
 
