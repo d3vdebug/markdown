@@ -201,6 +201,19 @@ Syntax:
 ```
 [GitHub](https://github.com)
 ```
+# Images
+Images help make your README visually appealing, making your README more engaging and easier to understand.
+
+Syntax:
+```
+![Alt text](image_url)
+````
+![cat](https://github.com/user-attachments/assets/ba594416-cd49-4231-837b-fc4b742b876f)
+
+```
+![cat](https://github.com/user-attachments/assets/ba594416-cd49-4231-837b-fc4b742b876f)
+```
+
 
 
 <!-- HTML -->
