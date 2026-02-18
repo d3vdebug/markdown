@@ -10,44 +10,112 @@
 # Headings
 
 > # This is a Heading
-> <pre>
+> ```
 > # This is a Heading
-> </pre>
+> ```
 > ## This is a Heading
-> <pre>
+> ```
 > ## This is a Heading
-> </pre>
+> ```
 > ### This is a Heading
-> <pre>
+> ```
 > ### This is a Heading
-> </pre>
+> ```
 
 <!-- Text Formatting -->
 # Text Formatting
 
 **Bold Text**
-<pre>
+```
 **Bold Text** or __Bold Text__
-</pre>
+```
 
 *Italic Text*
-<pre>
+```
 *Italic Text* or _Italic Text_
-</pre>
-
-***Bold + Italic***
-<pre>
-***Bold + Italic***
-</pre>
-
-Strikethrough
-```
-`~~ ~~` or `~ ~`
-
 ```
 
-Subscript
-<pre>
-`~~ ~~` or `~ ~`
-</pre>
+***Bold + Italic***
+```
+***Bold + Italic***
+```
+
+~Strikethrough~
+```
+`~~Strikethrough~~` or `~Strikethrough~`
+```
+
+<ins>Underline<ins>
+```
+<ins>Underline<ins>
+```
+
+Here's is a <sub>subscript<sub>
+```
+<sub>subscript<sub>
+```
+
+Here's is a <sup>superscript<sup>
+```
+<sup>superscript<sup>
+```
+
+
+<!-- Lists -->
+
+# Lists
+
+> ## Unordered List
+> - Item 1
+> - Item 2
+> ```
+> - Item 1
+> - Item 2
+> ```
+
+
+> ## Ordered List
+> 1. Item 1
+> 2. Item 2
+> ```
+> 1. Item 1
+> 2. Item 2
+> ```
+
+> ## Sub Item
+> - Item 1
+>   - Sub Item 1
+>     - Sub item a
+> ```
+> - Item 1
+>   - Sub Item 1
+>     - Sub item a
+> ```
+
+> ## Task List
+> - [x] Completed task
+> - [ ] Pending task
+> ```
+> - [x] Completed task
+> - [ ] Pending task
+> ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
