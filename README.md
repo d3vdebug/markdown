@@ -259,10 +259,5 @@ Alerts are use to emphasize critical information. On GitHub, they are displayed 
 
 
 
-<!-- HTML -->
-# HTML in Markdown
-<span style="color:yellow">Yellow text</span>
-
-# Collapsible Sections
 
 
