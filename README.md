@@ -1,7 +1,7 @@
 <p align="center">
   
   <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=30&letterSpacing=&duration=2000&pause=1000&color=F74E12&center=true&vCenter=true&repeat=false&width=435&height=50&lines=MARKDOWN+GUIDE" alt="Typing SVG" />
-  <p align="center"> A clean, complete guide for anyone writing better README files. </p>
+  
 </p>
 
 <p align = center>
@@ -18,7 +18,8 @@
       <img src="https://img.shields.io/github/forks/d3vdebug/markdown?style=for-the-badge&logo=github&color=orange" alt="GitHub forks" />
     </a>
   </p>
-
+  
+<p align="center"> A clean, complete guide for anyone writing better README files. </p>
 
 
 ## What is Markdown?
