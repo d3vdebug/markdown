@@ -1,5 +1,25 @@
-# Markdown Guide — Basics to Advanced
-<p> A clean, complete guide for anyone writing better README files. </p>
+<p align="center">
+  
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=30&letterSpacing=&duration=2000&pause=1000&color=F74E12&center=true&vCenter=true&repeat=false&width=435&height=50&lines=MARKDOWN+GUIDE" alt="Typing SVG" />
+  <p align="center"> A clean, complete guide for anyone writing better README files. </p>
+</p>
+
+<p align = center>
+    <a href="LICENSE">
+      <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge&logo=ReadMe&logoColor=white" alt="License: MIT" />
+    </a>
+    <a href="CONTRIBUTING.md">
+      <img src="https://img.shields.io/badge/Contributions-Welcome-green?style=for-the-badge&logo=github&logoColor=white" alt="PRs Welcome" />
+    </a>
+    <a href="https://github.com/d3vdebug/markdown/stargazers">
+      <img src="https://img.shields.io/github/stars/d3vdebug/markdown?style=for-the-badge&logo=github&color=red" alt="GitHub stars" />
+    </a>
+    <a href="https://github.com/wesleyscholl/credly-badge/network/members">
+      <img src="https://img.shields.io/github/forks/d3vdebug/markdown?style=for-the-badge&logo=github&color=orange" alt="GitHub forks" />
+    </a>
+  </p>
+
+
 
 ## What is Markdown?
 > Markdown is a lightweight markup language that lets you format text using simple symbols.
