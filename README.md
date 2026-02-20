@@ -21,6 +21,7 @@
   
 <p align="center"> A clean, complete guide for anyone writing better README files. </p>
 
+---
 
 ## What is Markdown?
 > Markdown is a lightweight markup language that lets you format text using simple symbols.
