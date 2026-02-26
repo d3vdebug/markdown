@@ -22,22 +22,6 @@
 <p align="center"> A clean, complete guide for anyone writing better README files. </p>
 
 
-
-> <p align = 'center' font="40px"> Table of Contents</p>
-
-> - [What is Markdown?](#what-is-markdown)
-> - [Heading](#usage)
-> - [Text Formatting](#usage)
-> - [Lists](#usage)
-> - [Usage](#usage)
-> - [Usage](#usage)
-> - [Usage](#usage)
-> - [Usage](#usage)
-> - [Usage](#usage)
-> - [Usage](#usage) 
-
-
-
 ## What is Markdown?
 > Markdown is a lightweight markup language that lets you format text using simple symbols.
 > It’s widely used in GitHub READMEs, documentation, wikis, blogs, and notes.
@@ -187,7 +171,6 @@ flowchart TD
 ```
 ````
 
-
 <!-- Tables -->
 # Tables
 Tables allow you to show structured information such as configurations, comparisons, or fields. It turns messy text into a clean, organized layout, especially useful for feature lists, API data, and documentation.
@@ -209,6 +192,18 @@ or
 |-|-|-|
 |John|Developer|Senior|
 |Bob|Tester|Junior|
+```
+We can also align text to the left, right, or center of a column by including colons ':' to the left, right, or on both sides of the hyphens within the header row.
+|Left Aligned| Centered |Right Aligned|
+|:---        |   :---:  |         ---:|
+| name1      |   role1  |       level1|
+| name2      |   role2  |       level2|
+
+```md
+|Left Aligned| Centered |Right Aligned|
+|:---        |   :---:  |         ---:|
+| name1      |   role1  |       level1|
+| name2      |   role2  |       level2|
 ```
 
 <!-- Blockquotes -->
@@ -352,11 +347,11 @@ We can tweak the alignment of elements using the 'align' attribute on some tags.
 
 
 > <div align="center">
->   <img src="assets/devdebug.png" alt="Logo" width="120" />
+>   <img src="assets/devdebug.png" title = "DevDebug Logo" alt="Logo" width="120" />
 >   <h1>Project Name</h1>
 >   <p>A short one‑line description of what your project does.</p>
 > </div>
-code
+
 > ```md
 > <div align="center">
 >   <img src="assets/logo.png" alt="Logo" width="120" />
@@ -405,7 +400,37 @@ Markdown lists are usually enough, but HTML lists help when you’re mixing comp
 ## Tables
 HTML tables are more flexible than Markdown tables. These are great for side‑by‑side layouts and for content that breaks Markdown table formatting.
 
+<table align='center'>
+  <tr>
+    <td>Column 1</td>
+    <td>Column 2</td>
+  </tr>
+  <tr>
+    <td>Data</td>
+    <td>Data</td>
+  </tr>
+  <tr>
+    <td>Data</td>
+    <td>Data</td>
+  </tr>
+</table>
 
+```md
+<table align='center'>
+  <tr>
+    <td>Column 1</td>
+    <td>Column 2</td>
+  </tr>
+  <tr>
+    <td>Data</td>
+    <td>Data</td>
+  </tr>
+  <tr>
+    <td>Data</td>
+    <td>Data</td>
+  </tr>
+</table>
+```
 
 
 ## Collapsible sections
@@ -430,11 +455,23 @@ Within our README we can use  `<details>` and  `summary>` tag to create expandab
 # Anchors
 Anchors helps navigation in long READMEs. GitHub supports TOC linking behavior as part of common README practice.
 
+> ## Table of Contents
+> - [Section1](#section1)
+> - [Section2](#section2)
+> ## Section1
+> ## Section2
+
+```md
+[Section1](#section1)
+[Section2](#section2)
+```
+
+
 
 # Keyboard keys
 We can use `<kbd>` to display keyboard keys nicely. It is useful for shortcuts or commands in guides.
 
-> Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to Copy.
+> Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to Copy.<br>
 > Press <kbd>Ctrl</kbd> + <kbd>V</kbd> to Paste.
 > ```md
 > Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to Copy.
@@ -442,3 +479,24 @@ We can use `<kbd>` to display keyboard keys nicely. It is useful for shortcuts o
 > ```
 
 
+
+ <h1>Some Useful Tips</h1>
+ 
+> [!TIP]
+> - [x] Start with a 1–2 line summary explaining what the project does and who it’s for.
+> - [x] Add a clear title + short tagline (people decide in 5 seconds).
+> - [x] Show a screenshot/GIF early (especially for UI tools, dashboards, web apps).
+> - [x] Include a “Features” section with 4–6 bullets (what makes it useful).
+> - [x] Add a “Tech Stack” section (helps recruiters + contributors instantly).
+> - [x] Provide quick install steps that work copy‑paste (no long paragraphs).
+> - [x] Add a minimal “Usage” example (command/API snippet + expected output).
+> - [x] Document configuration: env vars, keys, ports, config files (brief + clear).
+> - [x] Include a simple folder structure so readers understand the codebase fast.
+> - [x] Add a “Roadmap / TODO” (shows direction and ongoing development).
+> - [x] Mention prerequisites (versions, OS, tools) to reduce setup friction.
+> - [x] Link to important docs (CONTRIBUTING, LICENSE, SECURITY, wiki, demo).
+> - [x] Use consistent headings and formatting (makes it readable + professional).
+> - [x] Add “How to Contribute” (even 3 steps: fork → branch → PR).
+> - [x] End with “License + Contact” (makes the project feel complete and credible).
+
+---
