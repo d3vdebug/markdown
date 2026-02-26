@@ -320,10 +320,34 @@ Line 1 <br>
 Line 2
 ```
 
+## Comments
+Comments are notes that won't render on the markdown, useful in add info without showing them publicly.
+```md
+<!-- This is a Comment -->
 
-<p align="center">
-  <a href="https://example.com">Live Demo</a> •
-  <a href="./docs/README.md">Docs</a> •
-  <a href="./LICENSE">License</a>
-</p>
+<!--
+This is
+also a
+Comment
+-->
+```
 
+## Alignment and Centered Sections
+We can tweak the alignment of elements using the 'align' attribute on some tags. It is very useful to get a clean professional look for README's top section.
+
+
+<div align="center">
+  <img src="assets/logo.png" alt="Logo" width="120" />
+  <h1>Project Name</h1>
+  <p>A short one‑line description of what your project does.</p>
+</div>
+
+```md
+
+<div align="center">
+  <img src="assets/logo.png" alt="Logo" width="120" />
+  <h1>Project Name</h1>
+  <p>A short one‑line description of what your project does.</p>
+</div>
+
+```
