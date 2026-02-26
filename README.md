@@ -277,9 +277,53 @@ Alerts are use to emphasize critical information. On GitHub, they are displayed 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 ```
-# HTML Markdown
+# HTML in Markdown
+Markdown is powerful, but it has limits. GitHub supports HTML inside Markdown, letting you do layout tricks that plain Markdown cannot achieve. Below is the full detailed explanation of how HTML can enhance Markdown.
+
+## HTML Headings
+Markdown headings are good, but HTML headings gives more control. Useful when you want alignment or mixed layout at the top.
+
+> <h1>Heading 1</h1>
+> <h2>Heading 2</h2>
+> <h3>Heading 3</h3>
+```md
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+```
+
+> <h2 align="left">Left Aligned</h1>
+> <h2 align="center">Centered</h2>
+> <h2 align="right">Right Aligned</h3>
+```md
+<h2 align="left">Left Aligned</h1>
+<h2 align="center">Centered</h2>
+<h2 align="right">Right Aligned</h3>
+```
+
+## Paragraphs & Line Breaks
+Markdown sometimes collapses line breaks. HTML fixes that.
+
+### Paragraph
+<p>This is a paragraph with controlled spacing.</p>
+
+```md
+<p>This is a paragraph with controlled spacing.</p>
+```
+
+### Line Break
+Line 1 <br>
+Line 2
+
+```md
+Line 1 <br>
+Line 2
+```
 
 
-
-
+<p align="center">
+  <a href="https://example.com">Live Demo</a> •
+  <a href="./docs/README.md">Docs</a> •
+  <a href="./LICENSE">License</a>
+</p>
 
