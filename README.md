@@ -21,7 +21,22 @@
   
 <p align="center"> A clean, complete guide for anyone writing better README files. </p>
 
----
+
+
+> <p align = 'center' font="40px"> Table of Contents</p>
+
+> - [What is Markdown?](#what-is-markdown)
+> - [Heading](#usage)
+> - [Text Formatting](#usage)
+> - [Lists](#usage)
+> - [Usage](#usage)
+> - [Usage](#usage)
+> - [Usage](#usage)
+> - [Usage](#usage)
+> - [Usage](#usage)
+> - [Usage](#usage) 
+
+
 
 ## What is Markdown?
 > Markdown is a lightweight markup language that lets you format text using simple symbols.
@@ -336,18 +351,94 @@ Comment
 We can tweak the alignment of elements using the 'align' attribute on some tags. It is very useful to get a clean professional look for README's top section.
 
 
-<div align="center">
-  <img src="assets/logo.png" alt="Logo" width="120" />
-  <h1>Project Name</h1>
-  <p>A short one‑line description of what your project does.</p>
-</div>
+> <div align="center">
+>   <img src="assets/devdebug.png" alt="Logo" width="120" />
+>   <h1>Project Name</h1>
+>   <p>A short one‑line description of what your project does.</p>
+> </div>
+code
+> ```md
+> <div align="center">
+>   <img src="assets/logo.png" alt="Logo" width="120" />
+>   <h1>Project Name</h1>
+>   <p>A short one‑line description of what your project does.</p>
+> </div>
+> ```
+
+## Links
+Using `<a>` tag we can add links inside centered blocks, badge rows, or custom layouts where Markdown links get messy.
+
+<a href="https://example.com" title="Example">Example Site</a>
 
 ```md
-
-<div align="center">
-  <img src="assets/logo.png" alt="Logo" width="120" />
-  <h1>Project Name</h1>
-  <p>A short one‑line description of what your project does.</p>
-</div>
-
+<a href="https://example.com" title="Example">Example Site</a>
 ```
+
+## Lists
+Markdown lists are usually enough, but HTML lists help when you’re mixing complex blocks or alignment. We use `<ul>` ` <li>` for unordered lists, `<ol>` `<li>` for ordered lists.
+
+<ul>
+  <li>list 1</li>
+  <li>list 2</li>
+</ul>
+
+```md
+<ul>
+  <li>list 1</li>
+  <li>list 2</li>
+</ul>
+```
+
+<ol>
+  <li>list 1</li>
+  <li>list 2</li>
+</ol>
+
+```md
+<ol>
+  <li>list 1</li>
+  <li>list 2</li>
+</ol>
+```
+
+
+## Tables
+HTML tables are more flexible than Markdown tables. These are great for side‑by‑side layouts and for content that breaks Markdown table formatting.
+
+
+
+
+## Collapsible sections
+Within our README we can use  `<details>` and  `summary>` tag to create expandable sections. These collapsible sections are perfect for FAQ, advanced setup, more screenshots, or extended configuration without making the README huge.
+
+<details>
+<summary>Show advanced setup</summary>
+  
+- Step 1: Do this  
+- Step 2: Do that
+</details>
+
+```md
+<details>
+  <summary>Show advanced setup</summary>
+  - Step 1: Do this  
+  - Step 2: Do that  
+</details>
+```
+
+
+# Anchors
+Anchors helps navigation in long READMEs. GitHub supports TOC linking behavior as part of common README practice.
+
+
+# Keyboard keys
+We can use `<kbd>` to display keyboard keys nicely. It is useful for shortcuts or commands in guides.
+
+> Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to Copy.
+> Press <kbd>Ctrl</kbd> + <kbd>V</kbd> to Paste.
+> ```md
+> Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to Copy.
+> Press <kbd>Ctrl</kbd> + <kbd>V</kbd> to Paste.
+> ```
+
+
