@@ -478,8 +478,6 @@ We can use `<kbd>` to display keyboard keys nicely. It is useful for shortcuts o
 > Press <kbd>Ctrl</kbd> + <kbd>V</kbd> to Paste.
 > ```
 
-
-
  <h1>Some Useful Tips</h1>
  
 > [!TIP]
